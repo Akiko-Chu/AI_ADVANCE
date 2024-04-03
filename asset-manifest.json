@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/AI_ADVANCE/static/css/main.13b5788a.css",
-    "main.js": "/AI_ADVANCE/static/js/main.7a281a76.js",
+    "main.js": "/AI_ADVANCE/static/js/main.1b2bb369.js",
     "static/js/453.55d14284.chunk.js": "/AI_ADVANCE/static/js/453.55d14284.chunk.js",
+    "static/media/geolife1.png": "/AI_ADVANCE/static/media/geolife1.08248b19e3c85a20dda1.png",
     "index.html": "/AI_ADVANCE/index.html",
     "main.13b5788a.css.map": "/AI_ADVANCE/static/css/main.13b5788a.css.map",
-    "main.7a281a76.js.map": "/AI_ADVANCE/static/js/main.7a281a76.js.map",
+    "main.1b2bb369.js.map": "/AI_ADVANCE/static/js/main.1b2bb369.js.map",
     "453.55d14284.chunk.js.map": "/AI_ADVANCE/static/js/453.55d14284.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13b5788a.css",
-    "static/js/main.7a281a76.js"
+    "static/js/main.1b2bb369.js"
   ]
 }
