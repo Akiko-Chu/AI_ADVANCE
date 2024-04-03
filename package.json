@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/unsw-cse-comp99-3900-24t1/capstone-project-9900w16aaiadvance.git"
+    "deploy": "gh-pages -d build -r https://github.com/Akiko-Chu/AI_ADVANCE.git"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +42,6 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "https://Akiko-Chu.github.io/capstone-project-9900w16aaiadvance/"
+  "homepage": "https://Akiko-Chu.github.io/AI_ADVANCE/"
 }
 
