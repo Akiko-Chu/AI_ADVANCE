@@ -1,0 +1,29 @@
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px; /* 设置 Carousel 容器的最大宽度 */
+    height: 400px; 
+    margin: 0 auto;
+  }
+
+  
+  /* 图片样式 */
+  .carousel-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+.carousel-item .carousel-caption {
+    color: #717171;
+  }
+  
+  /* 更改箭头颜色 */
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #00ff00 !important;
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* 反转箭头颜色 */
+}

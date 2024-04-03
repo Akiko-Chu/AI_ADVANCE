@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #dde8ff;
+    
+  }
+  
+.navbar-brand{
+    padding-left: 15px;
+}
+
+.menu .dropdown-toggle{
+    width: 100vw; 
+    border-radius: 0; 
+    display: flex; 
+    justify-content: flex-start; 
+    padding-left: 15px;
+  }
