@@ -11,4 +11,4 @@ This is a webpage demonstrating all the data visualization for our AI model.
 2. React-bootstrap
 
 ### Deployed location
-[https://akiko-chu.github.io/AI_ADVANCE/]
+https://akiko-chu.github.io/AI_ADVANCE/
