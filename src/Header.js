@@ -15,7 +15,7 @@ const Header = ({ onPageChange }) => {
         </div>
 
         <div className="menu">
-          <Button onClick={() => window.location.href = '/'}>
+          <Button onClick={() => onPageChange('home')}>
             <img id="icon" src={home} alt="Home" />
           </Button>
           <DropdownButton id="dropdown-basic-button" title="Datasets">
