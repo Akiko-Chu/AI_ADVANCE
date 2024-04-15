@@ -1,11 +1,11 @@
 import React from 'react';
 import './Slide.css';
-import { Carousel, Image } from 'react-bootstrap';
+import { Carousel, Container, Image } from 'react-bootstrap';
 import geolife1 from './Image/geolife1.png';
 
 function Geolife() {
   return (
-    <div>
+    <Container className='slide'>
         <h2>Geolife Dataset</h2>
         <Carousel>
             <Carousel.Item>
@@ -30,7 +30,7 @@ function Geolife() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-    </div>
+    </Container>
   );
 }
 

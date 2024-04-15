@@ -1,12 +1,12 @@
 import React from 'react';
 import './Slide.css';
-import { Carousel, Image } from 'react-bootstrap';
+import { Carousel, Container, Image } from 'react-bootstrap';
 
 import geolife1 from './Image/geolife1.png';
 
 function Shanghai() {
   return (
-    <div>
+    <Container className='slide'>
       <h2>Shanghai Dataset</h2>
       <Carousel>
         <Carousel.Item>
@@ -31,7 +31,7 @@ function Shanghai() {
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>
-    </div>
+    </Container>
   );
 }
 

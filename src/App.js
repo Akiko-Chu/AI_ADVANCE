@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Shanghai from './Shanghai';
 import Geolife from './Geolife';
+import Home from './Home';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -17,7 +18,7 @@ function App() {
       case 'geo':
         return <Geolife />;
       default:
-        return null;
+        return <Home />;;
     }
   };
 
