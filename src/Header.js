@@ -15,7 +15,7 @@ const Header = ({ onPageChange }) => {
         </div>
 
         <div className="menu">
-          <Button onClick={() => onPageChange('home')}>
+          <Button onClick={() => window.location.href = "/AI_ADVANCE/"}>
             <img id="icon" src={home} alt="Home" />
           </Button>
           <DropdownButton id="dropdown-basic-button" title="Datasets">
