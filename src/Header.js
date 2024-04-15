@@ -11,7 +11,7 @@ const Header = ({ onPageChange }) => {
     return (
     <header>
         <div className="navbar">
-          <a className="navbar-brand" href="/">AI ADVANCE</a>
+          <h2 className="navbar-brand">AI ADVANCE - Dataset Visualization</h2>
         </div>
 
         <div className="menu">

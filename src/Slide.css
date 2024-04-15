@@ -7,19 +7,24 @@
 
 .carousel {
     position: relative;
+    width: 100%;
+    max-width: 800px;
+    max-height: 90%;
     margin: 0 auto;
   }
 
-.carousel-item .carousel-caption {
-    color: #717171;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    color: #00ff00 !important;
-  }
+.carousel .d-block w-100 {
+  position: relative;
+  max-width: fit-content;
+  max-height: 80%;
+  transform: translateY(50%);
+}
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(100%);
+.carousel-caption {
+  position: relative;
+  top: 100%;
+  bottom: 0; 
+  left: 0;
+  color: #fff;
+  padding: 10px;
 }
