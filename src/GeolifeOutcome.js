@@ -14,22 +14,19 @@ function GeolifeOutcome() {
         <Carousel.Item>
             <Image className="d-block w-100" src={geo_acc} alt="First slide" />
             <Carousel.Caption>
-            <h4>Shanghai Base Stations</h4>
-            <p>Here is the data exploration showing the locations of base Stations.</p>
+            <h4>Accuracy of baseline experiment</h4>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <Image className="d-block w-100" src={geo_error} alt="Second slide" />
             <Carousel.Caption>
-            <h4>Overview for Trajectory Length</h4>
-            <p>Here is the bar diagram showing the trajectory length for Shanghai users.</p>
+            <h4>Error Distribution</h4>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <Image className="d-block w-100" src={geo_uniq} alt="Third slide" />
             <Carousel.Caption>
-            <h4>Overview for Trajectory Length</h4>
-            <p>Here is the bar diagram showing the trajectory length for Shanghai users.</p>
+            <h4>Uniqueness distribution for different number of location</h4>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>

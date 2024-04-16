@@ -13,15 +13,15 @@ function Outcome() {
         <Carousel.Item>
             <Image className="d-block w-100" src={compare} alt="First slide" />
             <Carousel.Caption>
-            <h4>Shanghai Base Stations</h4>
-            <p>Here is the data exploration showing the locations of base Stations.</p>
+            <h4>Comparison for Accuracy</h4>
+            <p>Here is the comparison of accuracy for baseline implementation.</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
             <Image className="d-block w-100" src={locations_compare} alt="Second slide" />
             <Carousel.Caption>
-            <h4>Overview for Trajectory Length</h4>
-            <p>Here is the bar diagram showing the trajectory length for Shanghai users.</p>
+            <h4>Comparison for Uniqueness</h4>
+            <p>Here is the comparison of uniqueness for baseline implementation.</p>
             </Carousel.Caption>
         </Carousel.Item>
     </Carousel>
