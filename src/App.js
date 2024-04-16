@@ -3,6 +3,9 @@ import Header from './Header';
 import Shanghai from './Shanghai';
 import Geolife from './Geolife';
 import Home from './Home';
+import Outcome from './Outcome';
+import GeolifeOutcome from './GeolifeOutcome';
+import ShanghaiOutcome from './ShanghaiOutcome';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -17,6 +20,12 @@ function App() {
         return <Shanghai />;
       case 'geo':
         return <Geolife />;
+      case 'geoout':
+        return <GeolifeOutcome />;
+      case 'shanghaiout':
+        return <ShanghaiOutcome />;
+      case 'outcome':
+        return <Outcome />;
       default:
         return <Home />;;
     }
