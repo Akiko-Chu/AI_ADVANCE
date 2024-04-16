@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AI_ADVANCE/static/css/main.f1b4e337.css",
-    "main.js": "/AI_ADVANCE/static/js/main.a43054f8.js",
+    "main.js": "/AI_ADVANCE/static/js/main.6ba49097.js",
     "static/js/453.55d14284.chunk.js": "/AI_ADVANCE/static/js/453.55d14284.chunk.js",
     "static/media/shanghai_base_station.png": "/AI_ADVANCE/static/media/shanghai_base_station.197c2259460e8dbdc53c.png",
     "static/media/geolife1.png": "/AI_ADVANCE/static/media/geolife1.210971a54f7842933b76.png",
@@ -20,11 +20,11 @@
     "static/media/out_locations_compare.png": "/AI_ADVANCE/static/media/out_locations_compare.a947c8e53b5e3227b45d.png",
     "index.html": "/AI_ADVANCE/index.html",
     "main.f1b4e337.css.map": "/AI_ADVANCE/static/css/main.f1b4e337.css.map",
-    "main.a43054f8.js.map": "/AI_ADVANCE/static/js/main.a43054f8.js.map",
+    "main.6ba49097.js.map": "/AI_ADVANCE/static/js/main.6ba49097.js.map",
     "453.55d14284.chunk.js.map": "/AI_ADVANCE/static/js/453.55d14284.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1b4e337.css",
-    "static/js/main.a43054f8.js"
+    "static/js/main.6ba49097.js"
   ]
 }
